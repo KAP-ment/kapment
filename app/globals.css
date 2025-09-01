@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html, body {
+  @apply bg-night text-white;
+  scroll-behavior: smooth;
+}
+
+a { @apply underline-offset-4 decoration-neon/40 hover:decoration-neon; }
+
+.container {
+  @apply mx-auto px-6 sm:px-8;
+}
+
+/* subtle glow helpers */
+.glow {
+  box-shadow: 0 0 40px rgba(110,231,255,.15), inset 0 0 20px rgba(139,92,246,.12);
+}
+
+/* button styles */
+.btn {
+  @apply inline-flex items-center justify-center rounded-full px-6 py-3 font-semibold transition
+         border border-white/10 bg-white/5 hover:bg-white/10 backdrop-blur;
+}
+.btn-primary {
+  @apply border-neon/40;
+}
+
+/* card */
+.card {
+  @apply rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur glow;
+}
