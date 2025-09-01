@@ -1,0 +1,13 @@
+<svg width="140" height="140" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="peacock" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#6ee7ff"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#0ea5e9"/>
+    </radialGradient>
+  </defs>
+  <path d="M30,170 C80,140 130,110 160,60 C170,40 170,20 160,20 C140,20 120,40 100,70 C80,100 60,130 30,170 Z"
+        fill="none" stroke="url(#peacock)" stroke-width="6"/>
+  <circle cx="140" cy="60" r="22" stroke="url(#peacock)" stroke-width="6" fill="none"/>
+  <circle cx="140" cy="60" r="10" fill="url(#peacock)" opacity="0.6"/>
+</svg>
