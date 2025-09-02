@@ -10,7 +10,7 @@ export default function Header() {
         <motion.div initial={{ opacity: 0, y: -6 }} animate={{ opacity: 1, y: 0 }}>
           <Link href="#top" className="flex items-center gap-3 no-underline">
             {/* logo */}
-            <img src="/logo.svg" alt="KAPment" className="h-6 w-auto" />
+            <img src="/logo.png" alt="KAPment" className="h-6 w-auto" />
           </Link>
         </motion.div>
 
