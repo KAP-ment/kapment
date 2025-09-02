@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const blocks = [
   {
     title: "Find Teachers Easily",
-    text: "One-on-one classes with trusted mentors, tailored to your goals.",
+    text: "haww One-on-one classes with trusted mentors, tailored to your goals.",
     emoji: "👩‍🏫"
   },
   {
